@@ -38,7 +38,7 @@ export default function Chart({ bbOptions }: any) {
         shortName: "BB",
         calc: () => bands,
         // Drawing logic
-        draw: ({ ctx, indicator, visibleRange }) => {
+        draw: ({ ctx, indicator, visibleRange }: any) => {
           const { basis, upper, lower } = indicator.result;
           const { from, to } = visibleRange;
 
