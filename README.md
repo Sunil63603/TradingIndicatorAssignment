@@ -1,3 +1,6 @@
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/244e97e3-962e-41b5-bbbf-8c485ad24207" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/507a18c6-8cd8-417e-8d49-4279f1dc9b68" />
+
 Installation Steps:
 
 1. clone repository
