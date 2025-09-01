@@ -6,19 +6,12 @@ Installation Steps:
 
 Formulas Used:
 
-Basis (Middle Band) = SMA(source, length)
-StdDev = √( Σ(x − μ)² / N )
-Using Population StdDev (denominator = N).
-Upper = Basis + (StdDev Multiplier × StdDev)
-Lower = Basis − (StdDev Multiplier × StdDev)
-Offset = Shifts bands by N bars (positive = forward shift)
+1. Basis (Middle Band) = SMA(source, length)
+2. StdDev = √( Σ(x − μ)² / N )
+3. Using Population StdDev (denominator = N).
+4. Upper = Basis + (StdDev Multiplier × StdDev)
+5. Lower = Basis − (StdDev Multiplier × StdDev)
+6. Offset = Shifts bands by N bars (positive = forward shift)
 
 KLineCharts package - v10
 Candlestick chart using KLineCharts
-
-Bollinger Bands overlay:
-Inputs: Length, MA Type (SMA), Source (Close), StdDev Multiplier, Offset
-Style: visibility, color, line width, line style (solid/dashed)
-Background fill with opacity
-Tooltip shows Basis / Upper / Lower values for hovered candle
-Instant updates on input changes
